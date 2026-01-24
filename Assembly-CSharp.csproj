@@ -46,6 +46,7 @@
      <Compile Include="Assets\Code\Teleport.cs" />
      <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\Crouch.cs" />
      <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
+     <Compile Include="Assets\Code\SceneChange.cs" />
      <None Include="Assets\ThirdPart\Wand and Circles\Polygon City Free Pack - Environment and Interior\Materials\Double Sided Standard Diffuse Bump.shader" />
      <None Include="Assets\ThirdPart\MegaPack1Lite\SciFiPack1\README.txt" />
      <None Include="Assets\ThirdPart\MegaPack1Lite\TropicalIslandPack1\README.txt" />
