@@ -15,7 +15,7 @@ C:/Users/Algo/Documents/GitHub/3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51222
+51981
 Successfully changed project path to: C:/Users/Algo/Documents/GitHub/3D
 C:/Users/Algo/Documents/GitHub/3D
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Algo/Documents/GitHub/3D
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 311.09 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 236.08 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
@@ -63,89 +63,89 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56296
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.015699 seconds.
+Registered in 0.019111 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 199.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 182.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.740 seconds
+- Completed reload, in  1.542 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1741ms)
-		BeginReloadAssembly (353ms)
+	ReloadAssembly (1543ms)
+		BeginReloadAssembly (225ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (3ms)
-		EndReloadAssembly (1006ms)
-			LoadAssemblies (347ms)
+		EndReloadAssembly (1060ms)
+			LoadAssemblies (217ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
+			SetupTypeCache (248ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (63ms)
-			SetupLoadedEditorAssemblies (606ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (549ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (17ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (199ms)
+				RefreshPlugins (183ms)
 				BeforeProcessingInitializeOnLoad (3ms)
-				ProcessInitializeOnLoadAttributes (283ms)
-				ProcessInitializeOnLoadMethodAttributes (104ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (117ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013550 seconds.
+Registered in 0.012193 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.762 seconds
+- Completed reload, in  3.067 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2763ms)
-		BeginReloadAssembly (289ms)
+	ReloadAssembly (3070ms)
+		BeginReloadAssembly (367ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (22ms)
+			DisableScriptedObjects (84ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
+			ReleaseScriptingObjects (1ms)
 			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (2213ms)
-			LoadAssemblies (238ms)
+		EndReloadAssembly (2479ms)
+			LoadAssemblies (190ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (843ms)
+			SetupTypeCache (713ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (110ms)
-			SetupLoadedEditorAssemblies (919ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (1343ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (187ms)
-				ProcessInitializeOnLoadAttributes (606ms)
-				ProcessInitializeOnLoadMethodAttributes (62ms)
-				AfterProcessingInitializeOnLoad (51ms)
+				BeforeProcessingInitializeOnLoad (396ms)
+				ProcessInitializeOnLoadAttributes (861ms)
+				ProcessInitializeOnLoadMethodAttributes (57ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
-Refreshing native plugins compatible for Editor in 1.86 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3383 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 27 unused Assets / (111.3 KB). Loaded Objects now: 3847.
-Memory consumption went from 120.4 MB to 120.3 MB.
-Total: 8.903700 ms (FindLiveObjects: 0.423500 ms CreateObjectMapping: 0.349400 ms MarkObjects: 7.894600 ms  DeleteObjects: 0.234400 ms)
+Unloading 3397 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 27 unused Assets / (111.1 KB). Loaded Objects now: 3861.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 8.515900 ms (FindLiveObjects: 0.604200 ms CreateObjectMapping: 0.970000 ms MarkObjects: 6.610200 ms  DeleteObjects: 0.328600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -158,107 +158,56 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 1507921.841067 seconds.
+  path: Assets/Code/Enemy.cs
+  artifactKey: Guid(a0b875b1b3aa7c043a98587aa513230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Code/Enemy.cs using Guid(a0b875b1b3aa7c043a98587aa513230d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '882ba397946d4d80d08b4acd3a2542f3') in 0.108496 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.012867 seconds.
+Registered in 0.012063 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.975 seconds
+- Completed reload, in  2.109 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2976ms)
-		BeginReloadAssembly (304ms)
+	ReloadAssembly (2110ms)
+		BeginReloadAssembly (263ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
+			DisableScriptedObjects (11ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (2446ms)
-			LoadAssemblies (206ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1598ms)
+			LoadAssemblies (255ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (987ms)
+			SetupTypeCache (599ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (124ms)
-			SetupLoadedEditorAssemblies (795ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (608ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (31ms)
+				InitializePlatformSupportModulesInManaged (23ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (169ms)
-				ProcessInitializeOnLoadAttributes (515ms)
-				ProcessInitializeOnLoadMethodAttributes (61ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Script is not up to date after domain reload: guid(49e485e49b5d19e419570ab2f3ffcbb4) path("Assets/Code/NewBehaviourScript.cs") state(2)
-Refreshing native plugins compatible for Editor in 18.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3850.
-Memory consumption went from 120.3 MB to 120.2 MB.
-Total: 7.143000 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 0.336100 ms MarkObjects: 6.300700 ms  DeleteObjects: 0.139500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.011117 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.020 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2022ms)
-		BeginReloadAssembly (269ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (73ms)
-		EndReloadAssembly (1478ms)
-			LoadAssemblies (226ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (517ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (81ms)
-			SetupLoadedEditorAssemblies (606ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (126ms)
+				BeforeProcessingInitializeOnLoad (129ms)
 				ProcessInitializeOnLoadAttributes (389ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (15ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (14ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (13ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3378 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3854.
-Memory consumption went from 120.3 MB to 120.2 MB.
-Total: 6.047400 ms (FindLiveObjects: 0.292400 ms CreateObjectMapping: 0.196100 ms MarkObjects: 5.415600 ms  DeleteObjects: 0.141400 ms)
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (78.6 KB). Loaded Objects now: 3863.
+Memory consumption went from 121.8 MB to 121.7 MB.
+Total: 7.245900 ms (FindLiveObjects: 0.310300 ms CreateObjectMapping: 0.348600 ms MarkObjects: 6.443300 ms  DeleteObjects: 0.141600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -271,106 +220,152 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.021904 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.965 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1966ms)
-		BeginReloadAssembly (252ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (12ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (63ms)
-		EndReloadAssembly (1360ms)
-			LoadAssemblies (165ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (489ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (72ms)
-			SetupLoadedEditorAssemblies (573ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (365ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (78.4 KB). Loaded Objects now: 3856.
-Memory consumption went from 120.3 MB to 120.2 MB.
-Total: 7.534900 ms (FindLiveObjects: 0.532600 ms CreateObjectMapping: 0.346800 ms MarkObjects: 6.456100 ms  DeleteObjects: 0.197900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 76.159075 seconds.
+  path: Assets/FireEffect/Prefabs/FireEffect.prefab
+  artifactKey: Guid(af6c1e3f046eecd4d81330aeb285600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/Prefabs/FireEffect.prefab using Guid(af6c1e3f046eecd4d81330aeb285600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8e170b59f3ccb00cbd1f004533d63fa') in 0.243879 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 41.896029 seconds.
+  path: Assets/FireEffect/OtherAssets/Graphics/cfxr flamme blur stable hdr ab.mat
+  artifactKey: Guid(813a3e7e863a760429b02e9070a41e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr flamme blur stable hdr ab.mat using Guid(813a3e7e863a760429b02e9070a41e2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12aacb543362864af8befd3c11dc90e6') in 0.200098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/FireEffect/OtherAssets/Graphics/cfxr flamme crisp unstable hdr ab.mat
+  artifactKey: Guid(59dbbf9caca36934f947599cb0e569d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr flamme crisp unstable hdr ab.mat using Guid(59dbbf9caca36934f947599cb0e569d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c28168b7eff6fdd032f477dccbb7f319') in 0.064574 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/FireEffect/OtherAssets/Graphics/cfxr star ab.mat
+  artifactKey: Guid(39029f13e4f0bd94493ed939a7feff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr star ab.mat using Guid(39029f13e4f0bd94493ed939a7feff9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3e888d81bdbbff2b6bbc555d21ec0b') in 0.222469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/FireEffect/OtherAssets/Graphics/cfxr flamme plain unstable hdr ab.mat
+  artifactKey: Guid(8b296f62480ad2d438c02cbde3b5767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr flamme plain unstable hdr ab.mat using Guid(8b296f62480ad2d438c02cbde3b5767f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cba27515c4162093e5889cd8673e8a') in 0.053102 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/FireEffect/OtherAssets/Graphics/cfxr magic star hdr ab.mat
+  artifactKey: Guid(41e018a6cf0c896418fc0b89dda748c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr magic star hdr ab.mat using Guid(41e018a6cf0c896418fc0b89dda748c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dc9188504c3a68ec2b3620fdeb663e1') in 0.074103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/FireEffect/OtherAssets/Graphics/cfxr star blurred.png
+  artifactKey: Guid(33a57f503c2907f45914f326df7fb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr star blurred.png using Guid(33a57f503c2907f45914f326df7fb72e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5205cc101b9fe3e30422d7abdff659c') in 0.113127 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/ThirdPart/Mini First Person Controller/Audio/Crouch/Crouch start 3.wav
+  artifactKey: Guid(3e0e4a1bf1a03c24a85ad855f4be231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Mini First Person Controller/Audio/Crouch/Crouch start 3.wav using Guid(3e0e4a1bf1a03c24a85ad855f4be231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7067943b9f97bc1242f44bc9205dbb') in 0.154507 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/Optimized/greek_stairs_stone.prefab
+  artifactKey: Guid(1ed7a8b50527442d08a868101201615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/Optimized/greek_stairs_stone.prefab using Guid(1ed7a8b50527442d08a868101201615d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15c307b9a18e3a769434582ecb1a6ecc') in 0.093048 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/FireEffect/OtherAssets/Graphics/cfxr flamme plain stable hdr ab.mat
+  artifactKey: Guid(3971f198822757548a4891ef95ae7a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr flamme plain stable hdr ab.mat using Guid(3971f198822757548a4891ef95ae7a80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2013926f34ba18d892daf70f03c3d2db') in 0.085241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/greek_stairs_stone_corner.prefab
+  artifactKey: Guid(59df19ce6f8e647159d9bee24a6a0af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/MegaPack1Lite/GreekPack1Lite/Prefabs/Objects/greek_stairs_stone_corner.prefab using Guid(59df19ce6f8e647159d9bee24a6a0af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f888753cc923a1f239388ea38cd7adf9') in 0.086198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/FireEffect/OtherAssets/Graphics/cfxr magic star mesh.asset
+  artifactKey: Guid(bd8a92b47db41f644ae7188f06a986a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr magic star mesh.asset using Guid(bd8a92b47db41f644ae7188f06a986a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b04905c6761838d56bd12fc25619ded') in 0.108930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_wooden_bridge_b_stairs.prefab
+  artifactKey: Guid(dc1fcb109772d284485f64219c3a7f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdPart/Polylised - Medieval Desert City/Prefabs/prefab_props/port_wooden_bridge_b_stairs.prefab using Guid(dc1fcb109772d284485f64219c3a7f2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f65d47e6aad92d1eb57d9513ca234d6f') in 0.076765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.876433 seconds.
+  path: Assets/FireEffect/OtherAssets/Shaders/CFXR.cginc
+  artifactKey: Guid(b3dab2eb6bcf5df42a6c45d4638e0f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Shaders/CFXR.cginc using Guid(b3dab2eb6bcf5df42a6c45d4638e0f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be324d2edf109cb0f4c0f8f843c23b7e') in 0.034661 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/FireEffect/OtherAssets/Graphics/cfxr blood dissolve.png
+  artifactKey: Guid(0611efd272757c345a8ded5f38dd3f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr blood dissolve.png using Guid(0611efd272757c345a8ded5f38dd3f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed82a181b24b334c280cbe5cae98abaa') in 0.072235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/FireEffect/OtherAssets/Graphics/cfxr blood.png
+  artifactKey: Guid(a29f55dbea218ca4fbd94deb36027aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr blood.png using Guid(a29f55dbea218ca4fbd94deb36027aee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7367460faab9faa0efc4ee4984365d05') in 0.090578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.919362 seconds.
+  path: Assets/ThirdParty/Staff/Prefabs/FireBall.prefab
+  artifactKey: Guid(922e4f05d4a96f140a71d5e570d57ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ThirdParty/Staff/Prefabs/FireBall.prefab using Guid(922e4f05d4a96f140a71d5e570d57ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c6f6597f8dd779c6190a02e6a7e02b3') in 0.021211 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.020520 seconds.
+Registered in 0.010782 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Algo\Documents\GitHub\3D\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.56 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.002 seconds
+- Completed reload, in  2.954 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2003ms)
-		BeginReloadAssembly (250ms)
+	ReloadAssembly (2955ms)
+		BeginReloadAssembly (307ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (68ms)
-		EndReloadAssembly (1512ms)
-			LoadAssemblies (188ms)
+			CreateAndSetChildDomain (92ms)
+		EndReloadAssembly (2427ms)
+			LoadAssemblies (187ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (492ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (73ms)
-			SetupLoadedEditorAssemblies (685ms)
+			SetupTypeCache (535ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (399ms)
+			SetupLoadedEditorAssemblies (1110ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (24ms)
+				InitializePlatformSupportModulesInManaged (37ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (125ms)
-				ProcessInitializeOnLoadAttributes (450ms)
-				ProcessInitializeOnLoadMethodAttributes (60ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				BeforeProcessingInitializeOnLoad (188ms)
+				ProcessInitializeOnLoadAttributes (735ms)
+				ProcessInitializeOnLoadMethodAttributes (94ms)
+				AfterProcessingInitializeOnLoad (51ms)
 				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (24ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 5.11 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3377 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 20 unused Assets / (78.4 KB). Loaded Objects now: 3859.
-Memory consumption went from 120.3 MB to 120.2 MB.
-Total: 6.757600 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.213500 ms MarkObjects: 6.092000 ms  DeleteObjects: 0.144200 ms)
+Unloading 3386 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 20 unused Assets / (78.7 KB). Loaded Objects now: 3914.
+Memory consumption went from 126.7 MB to 126.7 MB.
+Total: 8.502000 ms (FindLiveObjects: 0.819300 ms CreateObjectMapping: 0.464000 ms MarkObjects: 6.947000 ms  DeleteObjects: 0.269900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -382,351 +377,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1503911.906170 seconds.
-  path: Assets/Code/Player.cs
-  artifactKey: Guid(5b95e87799144d148aac7d4ae61eed57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Player.cs using Guid(5b95e87799144d148aac7d4ae61eed57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfba8c8fd7253e2889a5c049bc9ccacb') in 0.102988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.800324 seconds.
-  path: Assets/Code/Player.cs
-  artifactKey: Guid(5b95e87799144d148aac7d4ae61eed57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Player.cs using Guid(5b95e87799144d148aac7d4ae61eed57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac43cd85829d6e2ba2a267d4ea35b226') in 0.005156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.884379 seconds.
-  path: Assets/Code/FireEffect.cs
-  artifactKey: Guid(1a0f12265cb389c4ebe03b7cb299d45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/FireEffect.cs using Guid(1a0f12265cb389c4ebe03b7cb299d45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e2df42bec880b6c31948fb2a14e3ed8') in 0.031962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.049473 seconds.
-  path: Assets/Code/FireEffect.cs
-  artifactKey: Guid(1a0f12265cb389c4ebe03b7cb299d45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/FireEffect.cs using Guid(1a0f12265cb389c4ebe03b7cb299d45e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71420b219550eae329557fafa8528e8c') in 0.008837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 779.729439 seconds.
-  path: Assets/FireEffect/Prefabs
-  artifactKey: Guid(bf3639f47c4de41f1bbacce45c7c8d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/Prefabs using Guid(bf3639f47c4de41f1bbacce45c7c8d88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef034a6717e3b9c2d9c57fddd3c25c3') in 0.036819 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.044669 seconds.
-  path: Assets/FireEffect/Prefabs/FireEffect.prefab
-  artifactKey: Guid(af6c1e3f046eecd4d81330aeb285600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/Prefabs/FireEffect.prefab using Guid(af6c1e3f046eecd4d81330aeb285600f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e0b53dd410baf4f68c10417aa46bd2') in 0.471968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 79.066909 seconds.
-  path: Assets/ThirdParty/Staff
-  artifactKey: Guid(a1f7f2ba2a7994acabd42acd18a42f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff using Guid(a1f7f2ba2a7994acabd42acd18a42f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dbb1b02f00f864f791548a3e2fa21ba') in 0.027989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.695638 seconds.
-  path: Assets/ThirdParty/Staff/Prefabs
-  artifactKey: Guid(41af1ede45f304f699a9d5b17fbf1987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Prefabs using Guid(41af1ede45f304f699a9d5b17fbf1987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d147afdc857ad86b1e07b6aabd7f19a') in 0.013093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.045858 seconds.
-  path: Assets/ThirdParty/Staff/Prefabs/staff.prefab
-  artifactKey: Guid(3ac146b9578b7914db23c8e3518933b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Prefabs/staff.prefab using Guid(3ac146b9578b7914db23c8e3518933b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8080b7377de1193f9792dc244aa4f7ce') in 0.033951 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 410.466551 seconds.
-  path: Assets/FireEffect/Prefabs/New Material.mat
-  artifactKey: Guid(453bda5554542e247a2fdad77865aece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/Prefabs/New Material.mat using Guid(453bda5554542e247a2fdad77865aece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9df6c638231256082003e965cecbfb') in 0.089319 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 191.128442 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr stretch fire crisp fade hdr ab.mat
-  artifactKey: Guid(2e32f93f5ce765e47b0cabd37ce2b73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr stretch fire crisp fade hdr ab.mat using Guid(2e32f93f5ce765e47b0cabd37ce2b73d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b809e339a64eac8d82c8339c66adc117') in 0.054570 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 134.626919 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire blur fade hdr ab.mat
-  artifactKey: Guid(8b86a91b570220b49a878c53343f2c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire blur fade hdr ab.mat using Guid(8b86a91b570220b49a878c53343f2c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ab7a639993f547fadc89861811b38f2') in 0.240869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000069 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire small anim blurred.png
-  artifactKey: Guid(7dd21a42fcbbb4d49b7ce998ddc61e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire small anim blurred.png using Guid(7dd21a42fcbbb4d49b7ce998ddc61e29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb53b83a3aeabd3edba372be06cf2b2') in 0.091743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000057 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr flamme crisp unstable fine hdr ab.mat
-  artifactKey: Guid(e046315f6ccc43746abef96249d6e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr flamme crisp unstable fine hdr ab.mat using Guid(e046315f6ccc43746abef96249d6e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91dbb5094d1687df18a99a5c2dac212c') in 0.208831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000053 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr flamme plain mid fine hdr ab.mat
-  artifactKey: Guid(e00e5f048f949bc4dac1b85325a691bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr flamme plain mid fine hdr ab.mat using Guid(e00e5f048f949bc4dac1b85325a691bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4827497a5a96c02fea70f3b07ad5cb6') in 0.073170 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire circle blur hdr ab.mat
-  artifactKey: Guid(92f497a3f1c7b5d49ad1b2854dd5d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire circle blur hdr ab.mat using Guid(92f497a3f1c7b5d49ad1b2854dd5d2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540192d338aaa3f227527dfe0522ff14') in 0.169647 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire small anim.png
-  artifactKey: Guid(fef5bd719a2b6cf4ab443c0b29bc50c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire small anim.png using Guid(fef5bd719a2b6cf4ab443c0b29bc50c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d69838391ecb2a16dfd5c2c3f32b8ed') in 0.053181 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire circle drawn hdr ab.mat
-  artifactKey: Guid(fd90ae0fa3165884da778202eace3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire circle drawn hdr ab.mat using Guid(fd90ae0fa3165884da778202eace3071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d7100ad475349c264132aedb470acf') in 0.202865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire small anim blurred hdr ab.mat
-  artifactKey: Guid(9fd7b93f5b2bb4340b23ceb8bf5f8ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire small anim blurred hdr ab.mat using Guid(9fd7b93f5b2bb4340b23ceb8bf5f8ad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362655202836e62350af7464999c4424') in 0.234617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire stepped fade hdr ab.mat
-  artifactKey: Guid(e85fde2ff708fdf40ac2e97a57beea96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire stepped fade hdr ab.mat using Guid(e85fde2ff708fdf40ac2e97a57beea96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9691e7279cb32eaef3a57a0be912fbbf') in 0.071978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000051 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire circle crisp hdr ab.mat
-  artifactKey: Guid(3dacf7558eb39c44990dc773a3c06cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire circle crisp hdr ab.mat using Guid(3dacf7558eb39c44990dc773a3c06cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc0f99976d86ce7e046917390a5cf189') in 0.066482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr flamme blur unstable fine hdr ab.mat
-  artifactKey: Guid(832254a1e17e6d242922c401632ff9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr flamme blur unstable fine hdr ab.mat using Guid(832254a1e17e6d242922c401632ff9cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8013c0b4eb52a6e22fb506703e54173') in 0.077668 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire edge dissolve.png
-  artifactKey: Guid(12db9c7e88bd8f149a35ba6e84f1c749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire edge dissolve.png using Guid(12db9c7e88bd8f149a35ba6e84f1c749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec704d8240f5c47238def792d6327d67') in 0.048868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr flamme crisp stable fine hdr ab.mat
-  artifactKey: Guid(ef64dc8784962734c8b0980d3aa7b21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr flamme crisp stable fine hdr ab.mat using Guid(ef64dc8784962734c8b0980d3aa7b21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4d7de50f094027d84add0e0c066d5f') in 0.070891 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000060 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire plain fade hdr ab.mat
-  artifactKey: Guid(c3b36b67920c18a4a8df7edba245e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire plain fade hdr ab.mat using Guid(c3b36b67920c18a4a8df7edba245e809) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c100b4c10294b51f348f92ca94e4117') in 0.073000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire small anim hdr ab.mat
-  artifactKey: Guid(ae1cda08a7621e649acb7738ffb73620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire small anim hdr ab.mat using Guid(ae1cda08a7621e649acb7738ffb73620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62254ab8cd44a418b0e451b8299cf760') in 0.287498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire circle drawn blurred hdr ab.mat
-  artifactKey: Guid(a8134160c9be0aa42ad349f9232c6073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire circle drawn blurred hdr ab.mat using Guid(a8134160c9be0aa42ad349f9232c6073) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d5576e020472f4b001662223297946') in 0.058048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr uv distortion fire perlin.png
-  artifactKey: Guid(7c423e707e7388d4f951b065d66bf7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr uv distortion fire perlin.png using Guid(7c423e707e7388d4f951b065d66bf7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c50ceb1233b0c89a71c634efecbc92a7') in 0.073631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr fire circle drawn blurred.png
-  artifactKey: Guid(232ec32264aa04142ba34374d9989110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr fire circle drawn blurred.png using Guid(232ec32264aa04142ba34374d9989110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bb6af6b57bedece3e69853350bfc46c') in 0.048018 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.727571 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr ww smoke first color.png
-  artifactKey: Guid(6386773108360044293d98e435fb73bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr ww smoke first color.png using Guid(6386773108360044293d98e435fb73bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25db9015750f1a12e340ab4cf1fe07d') in 0.057284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.225011 seconds.
-  path: Assets/FireEffect
-  artifactKey: Guid(976974e4d3018034e87caeb9f51f20f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect using Guid(976974e4d3018034e87caeb9f51f20f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1922164745271e21829e63cd23545bb9') in 0.006921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.396604 seconds.
-  path: Assets/FireEffect/OtherAssets
-  artifactKey: Guid(bd9d1d014bf0b14428db03b2527d2d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets using Guid(bd9d1d014bf0b14428db03b2527d2d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6601e1ea80d29c5575fc186628a63cd') in 0.026742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.705731 seconds.
-  path: Assets/ThirdParty/Staff/Textures
-  artifactKey: Guid(28b3c5543b0eb42899c614fb3d9d95d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Textures using Guid(28b3c5543b0eb42899c614fb3d9d95d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04929f1744024a259c5fa63315a6ad06') in 0.030002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059765 seconds.
-  path: Assets/ThirdParty/Staff/Textures/weapon_atlas_blue.png
-  artifactKey: Guid(5be027b18da73ec4bbc7c2af3c20787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Textures/weapon_atlas_blue.png using Guid(5be027b18da73ec4bbc7c2af3c20787f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87765d4ae2894f84705e6405488568ac') in 0.037971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/ThirdParty/Staff/Textures/weapon_atlas_red.png
-  artifactKey: Guid(ff9e4d42602c85345bc9bc837c2ad233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Textures/weapon_atlas_red.png using Guid(ff9e4d42602c85345bc9bc837c2ad233) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696ebea7e89e21d0494c46857e6c57b7') in 0.048729 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.982369 seconds.
-  path: Assets/ThirdParty/Staff/Models
-  artifactKey: Guid(6c3da9a492f2f46b8814ce53e915acbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Models using Guid(6c3da9a492f2f46b8814ce53e915acbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f331afcfc40c5acb1d9d2afa60fd895b') in 0.022157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.084229 seconds.
-  path: Assets/ThirdParty/Staff/Models/staff.fbx
-  artifactKey: Guid(5e314a8994372dc4c8aac1566667c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Models/staff.fbx using Guid(5e314a8994372dc4c8aac1566667c39f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba845713f294e629fb285c042352d68d') in 0.124164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.131534 seconds.
-  path: Assets/ThirdParty/Staff/Materials
-  artifactKey: Guid(890b89fe663b548fba660db9adf80021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Materials using Guid(890b89fe663b548fba660db9adf80021) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbc040e21b7417dbe10a610188a31ca6') in 0.024303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.054026 seconds.
-  path: Assets/ThirdParty/Staff/Materials/weapon_material_blue.mat
-  artifactKey: Guid(e7b51605c02d1cc42a0c61c1eb23184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Materials/weapon_material_blue.mat using Guid(e7b51605c02d1cc42a0c61c1eb23184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbd9883cb2f9ab82f8fb484ad2b8f4a9') in 0.037964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/ThirdParty/Staff/Materials/weapon_material_red.mat
-  artifactKey: Guid(eaed2594abb3cea47ab3ee7423de1b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Materials/weapon_material_red.mat using Guid(eaed2594abb3cea47ab3ee7423de1b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0aba96d38cd80cf1ad5a2808aba7f3') in 0.056259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 73.663121 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr aura rays hdr ab nosp.mat
-  artifactKey: Guid(59b66e1956031654985c136e6927a7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr aura rays hdr ab nosp.mat using Guid(59b66e1956031654985c136e6927a7d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd5a55d2f19739016e09b8ae56eceb0') in 0.127026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr blood dissolve ab.mat
-  artifactKey: Guid(28dde998c7abf234498a42d0aab38421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr blood dissolve ab.mat using Guid(28dde998c7abf234498a42d0aab38421) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c04b088f5e89f34f046418eb5d641b') in 0.261510 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/FireEffect/OtherAssets/Graphics/cfxr blood splash dissolve ab.mat
-  artifactKey: Guid(ccfff22ed954c6f41ade040a8a7c8f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Graphics/cfxr blood splash dissolve ab.mat using Guid(ccfff22ed954c6f41ade040a8a7c8f22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eba3dea3748c5dcd3194d3499960d38') in 0.095820 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.507482 seconds.
-  path: Assets/FireEffect/OtherAssets/Meshes/cfxr electric_arc_circle.fbx
-  artifactKey: Guid(b10f0a773262b9c478542ff2d1a04863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Meshes/cfxr electric_arc_circle.fbx using Guid(b10f0a773262b9c478542ff2d1a04863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e7102551d23da1b1c6691513e1c4370') in 0.124750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/FireEffect/OtherAssets/Meshes/cfxr mesh donut.fbx
-  artifactKey: Guid(5d48695472dfda94b92ac5316397da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Meshes/cfxr mesh donut.fbx using Guid(5d48695472dfda94b92ac5316397da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c824da88ad5736eab3bfd70b04ca68d6') in 0.102238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/FireEffect/OtherAssets/Meshes/cfxr mesh leave.fbx
-  artifactKey: Guid(f8defa343e39b2545bf3101b50eefa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Meshes/cfxr mesh leave.fbx using Guid(f8defa343e39b2545bf3101b50eefa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d23b782477693c0777a2cc78edaca78') in 0.092487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/FireEffect/OtherAssets/Meshes/cfxr mesh star4.fbx
-  artifactKey: Guid(a3e854b0e6a2a7d48ad61e15d33575de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Meshes/cfxr mesh star4.fbx using Guid(a3e854b0e6a2a7d48ad61e15d33575de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e396cd1d7c56b5f375969bc102ad83ad') in 0.125664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/FireEffect/OtherAssets/Meshes/cfxr particle_electric_arc.fbx
-  artifactKey: Guid(192a51b0671a3e949b6876606c3205db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Meshes/cfxr particle_electric_arc.fbx using Guid(192a51b0671a3e949b6876606c3205db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0354a5ff574ccaa7b81061608ffb49c9') in 0.133371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/FireEffect/OtherAssets/Meshes/cfxr mesh ring.fbx
-  artifactKey: Guid(fd9225d663ccb334dbfa1e5255190553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Meshes/cfxr mesh ring.fbx using Guid(fd9225d663ccb334dbfa1e5255190553) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d56ac3abfaae3ce09ed5429a1f9bc47') in 0.060965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/FireEffect/OtherAssets/Meshes/cfxr mesh disk.fbx
-  artifactKey: Guid(7874f2765cea0a547827d03a8933235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Meshes/cfxr mesh disk.fbx using Guid(7874f2765cea0a547827d03a8933235d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb1173dae65c2b2b90f6089e2778813b') in 0.091220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000095 seconds.
-  path: Assets/FireEffect/OtherAssets/Meshes/cfxr particle_electric_arc_2.fbx
-  artifactKey: Guid(f6ce39f7cf5788047aa637110fa7ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/FireEffect/OtherAssets/Meshes/cfxr particle_electric_arc_2.fbx using Guid(f6ce39f7cf5788047aa637110fa7ebe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '171b903cf6a600daf97b2a026dd1d4a9') in 0.080478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.458013 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png
-  artifactKey: Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-dark.png using Guid(1a4f52b613391cd449af3ad2e44affeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fa69aaa28f624d131403c0573ee223e') in 0.053093 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Styles/BetterTextField.uss
-  artifactKey: Guid(1526405b75c937f4b9f26bef99e5e692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Styles/BetterTextField.uss using Guid(1526405b75c937f4b9f26bef99e5e692) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9c8dd69c905c33371bd8d2b7197c11') in 0.089552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png
-  artifactKey: Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light@2x.png using Guid(ec2e3aa6d0ab8ce4eac29b56d65d61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecef179c2814b82152723db2c53a44d1') in 0.074338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png
-  artifactKey: Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/Collaborate/Assets/Icons/added-file-light.png using Guid(397fff6c3885f8343bb65714f0064b5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43bcfd698b922885e7084765914787fe') in 0.056150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 415.915474 seconds.
-  path: Assets/ThirdParty/Staff/Prefabs/FireBall.prefab
-  artifactKey: Guid(922e4f05d4a96f140a71d5e570d57ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdParty/Staff/Prefabs/FireBall.prefab using Guid(922e4f05d4a96f140a71d5e570d57ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a89cc0c7e273353ece49486df082f13') in 0.048356 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 758.801044 seconds.
-  path: Assets/ThirdPart/MegaPack1Lite/TropicalIslandPack1/Prefabs/island_cattail.prefab
-  artifactKey: Guid(f17414b05a2ac47d8ab218483290144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ThirdPart/MegaPack1Lite/TropicalIslandPack1/Prefabs/island_cattail.prefab using Guid(f17414b05a2ac47d8ab218483290144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ef8f757f7a01a683561c0591a3c4d6e') in 0.083559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 641.076713 seconds.
-  path: Assets/Code/Player.cs
-  artifactKey: Guid(5b95e87799144d148aac7d4ae61eed57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Code/Player.cs using Guid(5b95e87799144d148aac7d4ae61eed57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf8eff0221ccb211000a66c990ff396') in 0.005661 seconds 

@@ -50,6 +50,7 @@
      <Compile Include="Assets\Code\Teleport.cs" />
      <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\Crouch.cs" />
      <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
+     <Compile Include="Assets\Code\Coin.cs" />
      <None Include="Assets\FireEffect\OtherAssets\Shaders\CFXR Particle Glow.shader" />
      <None Include="Assets\FireEffect\OtherAssets\Shaders\CFXR Particle Ubershader.shader" />
      <None Include="Assets\FireEffect\OtherAssets\Shaders\CFXR_SETTINGS.cginc" />
