@@ -3,11 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour{
-    private int health = 10;
+    public int health = 10;
+    public int maxHealth = 10;
     public GameObject fireballPrefab;
     public Transform attackPoint;
-
-    public void TakeDamage(int damage){
+    public int coins;
+        public void TakeDamage(int damage){
         health-=damage;  //отнимает здоровье
         print("Здоровье игрока:" + health); //Сообщает о здоровье игрока
     }
