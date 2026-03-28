@@ -5,7 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour{
     public int health = 10;
     public int maxHealth = 10;
-    public GameObject fireballPrefab;
+    public GameObject FireballPrefab;
     public Transform attackPoint;
     public int coins;
         public void TakeDamage(int damage){
@@ -15,7 +15,7 @@ public class Player : MonoBehaviour{
 
 void Update(){
     if (Input.GetMouseButtonDown(0)){
-      Instantiate(fireballPrefab, 
+      Instantiate(FireballPrefab, 
       attackPoint.
       position, attackPoint.
       rotation);
