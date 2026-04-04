@@ -21,4 +21,9 @@ void Update(){
       rotation);
       }
 }
+    public void CollectCoin()
+    {
+        coins++;
+
+    }
 }
