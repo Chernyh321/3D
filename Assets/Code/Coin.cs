@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
+
     void OnTriggerEnter(Collider other)
     {
-        Player player = other.GetComponent<Player>();
-        player. CollectCoin();
+        CoinsCounter coinsCounter = other.GetComponent<CoinsCounter>();
+        coinsCounter. CollectCoin();
         Destroy(gameObject);
     }
 }

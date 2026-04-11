@@ -14,7 +14,7 @@ void Update(){
 
 }
 private void OnTriggerEnter(Collider other){
-    Player player=other.GetComponent<Player>();
+    Health player=other.GetComponent<Health>();
         player. TakeDamage(playerDamage);
 }
 }

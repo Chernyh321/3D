@@ -5,15 +5,16 @@ using UnityEngine.UI;
 using TMPro;
 public class PlayerUI : MonoBehaviour
 {
-    public Player player;
+    public Health health;
     public TextMeshProUGUI coinsCounterText;
     public Slider healthSlider;
+    public CoinsCounter coinsCounter;
 
     void Update()
     {
-        healthSlider.maxValue = player.maxHealth;
-        healthSlider.value = player.health;
-        coinsCounterText.text = player.coins.ToString();
+        healthSlider.maxValue = health.maxHealth;
+        healthSlider.value = health.health;
+        coinsCounterText.text = coinsCounter.coins.ToString();
 
 
     }
