@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Code\CoinsCounter.cs" />
      <Compile Include="Assets\Code\Trapoline.cs" />
      <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\FirstPersonMovement.cs" />
      <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\Zoom.cs" />
@@ -49,6 +50,7 @@
      <Compile Include="Assets\Code\PlayerUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+     <Compile Include="Assets\Code\Health.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
      <Compile Include="Assets\Code\SceneChange.cs" />
@@ -87,8 +89,11 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Code\Coin.cs" />
      <Compile Include="Assets\ThirdPart\Mini First Person Controller\Scripts\Components\GroundCheck.cs" />
-     <Compile Include="Assets\Code\CoinsCounter.cs" />
-     <Compile Include="Assets\Code\Health.cs" />
+     <Compile Include="Assets\Code\TemperatureUI.cs" />
+     <Compile Include="Assets\Level_2\ThirdParty\Bonefire\FireLight.cs" />
+     <Compile Include="Assets\Level_2\ThirdParty\Campfire Pack\Script\SwitchView.cs" />
+     <Compile Include="Assets\Level_2\ThirdParty\Bonefire\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\Level_2\ThirdParty\Bonefire\ParticleSystemDestroyer.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\FireEffect\OtherAssets\Shaders\CFXR Particle Glow.shader" />
