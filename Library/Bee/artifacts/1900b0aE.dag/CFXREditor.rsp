@@ -342,7 +342,6 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.TestRunner.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
-"Assets/FireEffect/OtherAssets/Editor/CFXR_BuildShaderPreprocessor.cs"
 "Assets/FireEffect/OtherAssets/Editor/CFXR_ExpressionParser.cs"
 "Assets/FireEffect/OtherAssets/Editor/CFXR_MaterialInspector.cs"
 "Assets/FireEffect/OtherAssets/Editor/CFXR_Styles.cs"
