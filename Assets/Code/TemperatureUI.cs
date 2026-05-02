@@ -13,6 +13,7 @@ public class TemperatureUI : MonoBehaviour
     public float freezeDamageTimer = 1;
     public float freezeDamageDelay = 2;
     public float temperature;
+    public TextMeshProUGUI temperatureText;
 
     void Update()
     {
@@ -31,7 +32,8 @@ public class TemperatureUI : MonoBehaviour
             }
 
         }
-        Mathf.Round(temperature * 10.0f)* 0.1f
+        temperature=Mathf.Round(temperature * 10.0f) * 0.1f;
+        temperatureText.text = temperature.ToString();
 
 
     }
